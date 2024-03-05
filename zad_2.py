@@ -1,6 +1,7 @@
 def pomnoz(a, b):
     return a * b
 
+
 # Przykład użycia
 liczba1 = 5
 liczba2 = 7

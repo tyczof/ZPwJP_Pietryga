@@ -1,6 +1,7 @@
 def przywitanie(name, surname):
     return f"Cześć {name} {surname}!"
 
+
 # Przykład użycia
 imie = "Jan"
 nazwisko = "Kowalski"

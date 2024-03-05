@@ -1,6 +1,7 @@
 def sprawdz_sumę(pierwsza, druga, trzecia):
     return pierwsza + druga >= trzecia
 
+
 # Przykład użycia
 liczba1 = 5
 liczba2 = 8

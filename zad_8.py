@@ -1,6 +1,7 @@
 import requests
 import argparse
 
+
 class Brewery:
     def __init__(self, brewery_data):
         self.id = brewery_data.get('id', 'N/A')
@@ -40,6 +41,7 @@ class Brewery:
             f"Street: {self.street}\n"
         )
 
+
 def get_breweries(api_url, city=None):
     params = {"per_page": 20, "by_city": city} if city else {"per_page": 20}
     response = requests.get(api_url, params=params)
@@ -50,6 +52,7 @@ def get_breweries(api_url, city=None):
     else:
         print(f"Failed to fetch data. Status Code: {response.status_code}")
         return []
+
 
 def main():
     parser = argparse.ArgumentParser(description="Fetch and display brewery information.")
@@ -62,6 +65,7 @@ def main():
     # Display each brewery object separately
     for brewery in breweries_list:
         print(brewery)
+
 
 if __name__ == "__main__":
     main()
