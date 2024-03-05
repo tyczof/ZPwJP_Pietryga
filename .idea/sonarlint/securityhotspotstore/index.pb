@@ -1,3 +1,9 @@
 
 7
 main.py,f\1\f1bdda93d9a278e358509d498e17d97764c1fb29
+8
+zad_1.py,6\c\6c0c1f80fad4586ebdad6a3a3253bc7637c4fca3
+8
+zad_2.py,d\c\dc156f8b12486e5a3777a07c5e321c8c1028b6e3
+8
+zad_3.py,4\e\4e73829cebdfff604536083c657aa25c6208b349
