@@ -7,6 +7,7 @@ class Student:
         average_marks = sum(self.marks) / len(self.marks) if len(self.marks) > 0 else 0
         return average_marks > 50
 
+
 # Przykładowe obiekty klasy Student
 student1 = Student("Jan Kowalski", [60, 75, 80, 90])
 student2 = Student("Anna Nowak", [40, 30, 45, 50])

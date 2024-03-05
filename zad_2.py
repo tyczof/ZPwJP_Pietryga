@@ -67,7 +67,6 @@ class Student:
         return average_marks > 50
 
 
-
 # Tworzenie instancji klas
 library1 = Library("City1", "Street1", "12345", "9:00 AM - 5:00 PM", "123-456-789")
 library2 = Library("City2", "Street2", "67890", "10:00 AM - 6:00 PM", "987-654-321")
